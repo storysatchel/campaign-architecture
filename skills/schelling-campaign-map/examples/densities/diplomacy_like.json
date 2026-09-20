@@ -1,0 +1,14 @@
+{
+ "key": "diplomacy_like",
+ "title": "Diplomacy-like (default) \u2014 d\u22480.45",
+ "N": 75,
+ "supply": 34,
+ "sea": 19,
+ "wild": 18,
+ "waypoints": 3,
+ "impassable": 1,
+ "E_A": 132,
+ "E_F": 93,
+ "E_C": 2,
+ "coast_subnodes": 6
+}

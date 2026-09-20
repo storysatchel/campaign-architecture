@@ -1,0 +1,14 @@
+{
+ "key": "sparse",
+ "title": "Sparse frontier \u2014 d\u22480.25",
+ "N": 77,
+ "supply": 19,
+ "sea": 21,
+ "wild": 31,
+ "waypoints": 5,
+ "impassable": 1,
+ "E_A": 124,
+ "E_F": 130,
+ "E_C": 2,
+ "coast_subnodes": 16
+}

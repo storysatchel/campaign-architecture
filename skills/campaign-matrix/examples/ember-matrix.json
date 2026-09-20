@@ -1,0 +1,342 @@
+{
+ "quests": [
+  "The Hollow Crown",
+  "The Ashen Compact",
+  "The Drowned Ledger",
+  "The Ninth Bell",
+  "The Salt Rebellion"
+ ],
+ "beats": [
+  "1 Inciting",
+  "2 Complication",
+  "3 Reversal",
+  "4 Crisis",
+  "5 Climax"
+ ],
+ "bindings": {
+  "n0": {
+   "name": "Crownsgate",
+   "held_by": "Red",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 1,
+     "step_number": 1,
+     "action_verb": "Breach",
+     "narrative_summary": "",
+     "quest_title": "The Hollow Crown",
+     "beat": "1 Inciting"
+    },
+    {
+     "quest_id": 2,
+     "step_number": 2,
+     "action_verb": "Exfiltrate",
+     "narrative_summary": "",
+     "quest_title": "The Ashen Compact",
+     "beat": "2 Complication"
+    },
+    {
+     "quest_id": 3,
+     "step_number": 3,
+     "action_verb": "Purge",
+     "narrative_summary": "",
+     "quest_title": "The Drowned Ledger",
+     "beat": "3 Reversal"
+    },
+    {
+     "quest_id": 4,
+     "step_number": 4,
+     "action_verb": "Smuggle",
+     "narrative_summary": "",
+     "quest_title": "The Ninth Bell",
+     "beat": "4 Crisis"
+    },
+    {
+     "quest_id": 5,
+     "step_number": 5,
+     "action_verb": "Decrypt",
+     "narrative_summary": "",
+     "quest_title": "The Salt Rebellion",
+     "beat": "5 Climax"
+    }
+   ]
+  },
+  "n1": {
+   "name": "Ironford",
+   "held_by": "Unheld",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 1,
+     "step_number": 2,
+     "action_verb": "Chart",
+     "narrative_summary": "",
+     "quest_title": "The Hollow Crown",
+     "beat": "2 Complication"
+    },
+    {
+     "quest_id": 2,
+     "step_number": 3,
+     "action_verb": "Ignite",
+     "narrative_summary": "",
+     "quest_title": "The Ashen Compact",
+     "beat": "3 Reversal"
+    },
+    {
+     "quest_id": 3,
+     "step_number": 4,
+     "action_verb": "Reclaim",
+     "narrative_summary": "",
+     "quest_title": "The Drowned Ledger",
+     "beat": "4 Crisis"
+    },
+    {
+     "quest_id": 4,
+     "step_number": 5,
+     "action_verb": "Survey",
+     "narrative_summary": "",
+     "quest_title": "The Ninth Bell",
+     "beat": "5 Climax"
+    }
+   ]
+  },
+  "n2": {
+   "name": "Millhaven",
+   "held_by": "Red",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 1,
+     "step_number": 3,
+     "action_verb": "Decrypt",
+     "narrative_summary": "",
+     "quest_title": "The Hollow Crown",
+     "beat": "3 Reversal"
+    },
+    {
+     "quest_id": 2,
+     "step_number": 4,
+     "action_verb": "Infiltrate",
+     "narrative_summary": "",
+     "quest_title": "The Ashen Compact",
+     "beat": "4 Crisis"
+    },
+    {
+     "quest_id": 3,
+     "step_number": 5,
+     "action_verb": "Rescue",
+     "narrative_summary": "",
+     "quest_title": "The Drowned Ledger",
+     "beat": "5 Climax"
+    },
+    {
+     "quest_id": 5,
+     "step_number": 1,
+     "action_verb": "Unmask",
+     "narrative_summary": "",
+     "quest_title": "The Salt Rebellion",
+     "beat": "1 Inciting"
+    }
+   ]
+  },
+  "n3": {
+   "name": "Saltspire",
+   "held_by": "Unheld",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 1,
+     "step_number": 4,
+     "action_verb": "Disinfect",
+     "narrative_summary": "",
+     "quest_title": "The Hollow Crown",
+     "beat": "4 Crisis"
+    },
+    {
+     "quest_id": 2,
+     "step_number": 5,
+     "action_verb": "Interdict",
+     "narrative_summary": "",
+     "quest_title": "The Ashen Compact",
+     "beat": "5 Climax"
+    },
+    {
+     "quest_id": 4,
+     "step_number": 1,
+     "action_verb": "Retrieve",
+     "narrative_summary": "",
+     "quest_title": "The Ninth Bell",
+     "beat": "1 Inciting"
+    },
+    {
+     "quest_id": 5,
+     "step_number": 2,
+     "action_verb": "Undermine",
+     "narrative_summary": "",
+     "quest_title": "The Salt Rebellion",
+     "beat": "2 Complication"
+    }
+   ]
+  },
+  "n4": {
+   "name": "Thornwall",
+   "held_by": "Red",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 1,
+     "step_number": 5,
+     "action_verb": "Divert",
+     "narrative_summary": "",
+     "quest_title": "The Hollow Crown",
+     "beat": "5 Climax"
+    },
+    {
+     "quest_id": 3,
+     "step_number": 1,
+     "action_verb": "Map",
+     "narrative_summary": "",
+     "quest_title": "The Drowned Ledger",
+     "beat": "1 Inciting"
+    },
+    {
+     "quest_id": 4,
+     "step_number": 2,
+     "action_verb": "Sabotage",
+     "narrative_summary": "",
+     "quest_title": "The Ninth Bell",
+     "beat": "2 Complication"
+    },
+    {
+     "quest_id": 5,
+     "step_number": 3,
+     "action_verb": "Breach",
+     "narrative_summary": "",
+     "quest_title": "The Salt Rebellion",
+     "beat": "3 Reversal"
+    }
+   ]
+  },
+  "n5": {
+   "name": "Emberhold",
+   "held_by": "Unheld",
+   "hub": true,
+   "cells": [
+    {
+     "quest_id": 2,
+     "step_number": 1,
+     "action_verb": "Entomb",
+     "narrative_summary": "",
+     "quest_title": "The Ashen Compact",
+     "beat": "1 Inciting"
+    },
+    {
+     "quest_id": 3,
+     "step_number": 2,
+     "action_verb": "Parley",
+     "narrative_summary": "",
+     "quest_title": "The Drowned Ledger",
+     "beat": "2 Complication"
+    },
+    {
+     "quest_id": 4,
+     "step_number": 3,
+     "action_verb": "Seal",
+     "narrative_summary": "",
+     "quest_title": "The Ninth Bell",
+     "beat": "3 Reversal"
+    },
+    {
+     "quest_id": 5,
+     "step_number": 4,
+     "action_verb": "Chart",
+     "narrative_summary": "",
+     "quest_title": "The Salt Rebellion",
+     "beat": "4 Crisis"
+    }
+   ]
+  }
+ },
+ "dungeons": {
+  "n0": {
+   "name": "Crownsgate",
+   "held_by": "Red",
+   "theme": "Vault beneath the market, counting house above",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Vault beneath the market, counting house above",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Vault beneath the market, counting house above",
+    "room_3_trick_or_climax": "Setback \u2014 Vault beneath the market, counting house above",
+    "room_4_climax_encounter": "Climax \u2014 Vault beneath the market, counting house above",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Vault beneath the market, counting house above"
+   }
+  },
+  "n1": {
+   "name": "Ironford",
+   "held_by": "Unheld",
+   "theme": "Drowned council chamber, tide charts on the walls",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Drowned council chamber, tide charts on the walls",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Drowned council chamber, tide charts on the walls",
+    "room_3_trick_or_climax": "Setback \u2014 Drowned council chamber, tide charts on the walls",
+    "room_4_climax_encounter": "Climax \u2014 Drowned council chamber, tide charts on the walls",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Drowned council chamber, tide charts on the walls"
+   }
+  },
+  "n2": {
+   "name": "Millhaven",
+   "held_by": "Red",
+   "theme": "Observatory of black glass, pointed at the wrong star",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Observatory of black glass, pointed at the wrong star",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Observatory of black glass, pointed at the wrong star",
+    "room_3_trick_or_climax": "Setback \u2014 Observatory of black glass, pointed at the wrong star",
+    "room_4_climax_encounter": "Climax \u2014 Observatory of black glass, pointed at the wrong star",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Observatory of black glass, pointed at the wrong star"
+   }
+  },
+  "n3": {
+   "name": "Saltspire",
+   "held_by": "Unheld",
+   "theme": "Foundry that never cooled, slag still glowing",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Foundry that never cooled, slag still glowing",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Foundry that never cooled, slag still glowing",
+    "room_3_trick_or_climax": "Setback \u2014 Foundry that never cooled, slag still glowing",
+    "room_4_climax_encounter": "Climax \u2014 Foundry that never cooled, slag still glowing",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Foundry that never cooled, slag still glowing"
+   }
+  },
+  "n4": {
+   "name": "Thornwall",
+   "held_by": "Red",
+   "theme": "Library of unspoken names, ink that fades on reading",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Library of unspoken names, ink that fades on reading",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Library of unspoken names, ink that fades on reading",
+    "room_3_trick_or_climax": "Setback \u2014 Library of unspoken names, ink that fades on reading",
+    "room_4_climax_encounter": "Climax \u2014 Library of unspoken names, ink that fades on reading",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Library of unspoken names, ink that fades on reading"
+   }
+  },
+  "n5": {
+   "name": "Emberhold",
+   "held_by": "Unheld",
+   "theme": "Chapel of the drowned saint, bells under water",
+   "rooms": {
+    "room_1_guardian": "Entrance & Guardian \u2014 Chapel of the drowned saint, bells under water",
+    "room_2_puzzle_or_trap": "Puzzle or Trap \u2014 Chapel of the drowned saint, bells under water",
+    "room_3_trick_or_climax": "Setback \u2014 Chapel of the drowned saint, bells under water",
+    "room_4_climax_encounter": "Climax \u2014 Chapel of the drowned saint, bells under water",
+    "room_5_reward_or_revelation": "Reward & Revelation \u2014 Chapel of the drowned saint, bells under water"
+   }
+  }
+ },
+ "hubs": [
+  "n0",
+  "n1",
+  "n2",
+  "n3",
+  "n4",
+  "n5"
+ ]
+}

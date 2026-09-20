@@ -1,0 +1,55 @@
+{
+ "nouns": {
+  "Coco Loft": {
+   "kind": "place",
+   "desc": "Rooftop garden above the market",
+   "aka": []
+  },
+  "The Tallyman": {
+   "kind": "person",
+   "desc": "Counts debts, collects in kind",
+   "aka": []
+  },
+  "The Drowned Ledger": {
+   "kind": "place",
+   "desc": "Sunken archive",
+   "aka": []
+  },
+  "The Night Audit": {
+   "kind": "encounter",
+   "desc": "",
+   "aka": [],
+   "at": "Coco Loft",
+   "senses": "Rain on canvas, charcoal smoke, abacus clicking",
+   "rewards": [
+    "The Tallyman's favor"
+   ],
+   "risks": [
+    "Collectors",
+    "the rotten deck edge"
+   ],
+   "hooks": [
+    {
+     "text": "The ledger names a debtor",
+     "target": "The Drowned Ledger"
+    },
+    {
+     "text": "A collector drops an Ashen token",
+     "target": "The Tallyman"
+    }
+   ]
+  }
+ },
+ "links": [
+  {
+   "a": "Coco Loft",
+   "b": "Q1",
+   "relation": "stage-of"
+  },
+  {
+   "a": "Coco Loft",
+   "b": "Q3",
+   "relation": "stage-of"
+  }
+ ]
+}

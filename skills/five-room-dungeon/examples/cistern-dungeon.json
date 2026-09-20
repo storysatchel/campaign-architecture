@@ -1,0 +1,47 @@
+{
+ "name": "cistern",
+ "theme": "Cistern of mirrored water, reflections arrive late",
+ "binding": null,
+ "rooms": {
+  "room_1_guardian": {
+   "label": "Entrance & Guardian",
+   "purpose": "States the dungeon's terms: what it costs to enter, and what bars the way.",
+   "seed": "Entrance & Guardian \u2014 Cistern of mirrored water, reflections arrive late.",
+   "challenge": "AUTHOR: who or what guards the threshold, and what does it want?",
+   "twist": "",
+   "hooks": []
+  },
+  "room_2_puzzle_or_trap": {
+   "label": "Puzzle or Trap",
+   "purpose": "The place itself resists. Tests wit or caution, not force.",
+   "seed": "Puzzle or Trap \u2014 Cistern of mirrored water, reflections arrive late.",
+   "challenge": "AUTHOR: the mechanism, what triggers it, what it costs to misread.",
+   "twist": "",
+   "hooks": []
+  },
+  "room_3_trick_or_climax": {
+   "label": "Setback",
+   "purpose": "The reversal: the easy path collapses, the map was wrong, the ally falters. Must reverse something \u2014 never a second guardian.",
+   "seed": "Setback \u2014 Cistern of mirrored water, reflections arrive late.",
+   "challenge": "AUTHOR: what breaks, what false assumption does it punish?",
+   "twist": "",
+   "hooks": []
+  },
+  "room_4_climax_encounter": {
+   "label": "Climax",
+   "purpose": "The true encounter, the location's focal point. Force, not wit.",
+   "seed": "Climax \u2014 Cistern of mirrored water, reflections arrive late.",
+   "challenge": "AUTHOR: the opposition, what winning costs, what losing costs.",
+   "twist": "",
+   "hooks": []
+  },
+  "room_5_reward_or_revelation": {
+   "label": "Reward & Revelation",
+   "purpose": "The prize AND the secret it carries. The revelation must hook elsewhere \u2014 a reward with no hook is a dead end.",
+   "seed": "Reward & Revelation \u2014 Cistern of mirrored water, reflections arrive late.",
+   "challenge": "AUTHOR: the reward, the revelation, and at least one outbound hook.",
+   "twist": "",
+   "hooks": []
+  }
+ }
+}

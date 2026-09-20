@@ -1,0 +1,14 @@
+{
+ "key": "dense",
+ "title": "Dense \u2014 d\u22480.60",
+ "N": 75,
+ "supply": 45,
+ "sea": 12,
+ "wild": 14,
+ "waypoints": 3,
+ "impassable": 1,
+ "E_A": 149,
+ "E_F": 65,
+ "E_C": 2,
+ "coast_subnodes": 15
+}
