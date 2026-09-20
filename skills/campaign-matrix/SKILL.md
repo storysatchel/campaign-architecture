@@ -32,6 +32,14 @@ it recurs across quest lines, which is what makes the campaign feel like one
 world instead of five errands. With M centers and 25 steps, hubs are guaranteed
 whenever M < 25.
 
+A hub is a **Strategic-Narrative Intersection** (an "Adventure Location"): one
+site functioning simultaneously as a military resource on the Diplomacy map
+and a reusable narrative stage in the matrix. Mount Doom hosting "Destroy the
+Ring" in one quest and "Serve Tea" in another is the shape. Each bound step is
+a *reason to be a place and time* — not just a location, but an event at that
+location. Aim for on the order of fifteen such intersections per campaign; not
+every supply center must host steps.
+
 **The 5-room dungeon (fixed five rooms).** Every supply center gets one,
 regardless of whether it hosts a matrix step:
 

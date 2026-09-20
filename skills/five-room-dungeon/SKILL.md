@@ -10,6 +10,13 @@ The modular unit of campaign architecture. One dungeon fleshes out one
 matrix cell (or stands alone as a single-site adventure). The shape is fixed;
 the deployment is not.
 
+The dungeon is the **internal structure of a Strategic-Narrative
+Intersection**: the supply center is the where, the matrix cell is the when,
+and these five rooms are what the party actually walks through. At a hub the
+party returns — the same intersection hosts different cells over time — so
+rooms should have a spent state: the guardian already beaten, the setback
+already sprung, the place changed by the last visit.
+
 ## The five rooms
 
 1. **Entrance & Guardian** — the threshold and what bars it. States the

@@ -70,7 +70,9 @@ noun; no noun is referenced but undefined.
     python3 bin/nouns.py --db <dir> conjunctions
 
 Lists nouns bound to two or more quest contexts — the collision points. These
-are where the campaign's plotlines intersect; prep them hardest.
+are the campaign's Strategic-Narrative Intersections: "intersections of
+Destiny and matter," where plotlines collide and players must choose. Prep
+them hardest.
 
 ## Operating rules
 

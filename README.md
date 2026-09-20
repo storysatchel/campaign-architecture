@@ -13,6 +13,25 @@ documented in [the Candyland monograph](docs/monograph-candyland-framework.md).
 | 3 | `skills/five-room-dungeon` | site | The Five-Room Dungeon: each matrix cell fleshed out as Entrance & Guardian → Puzzle or Trap → Setback → Climax → Reward & Revelation |
 | 4 | `skills/nouns-directory` | atomic | The Nouns Directory: every canonical person, place, and thing, plus the encounter formula — sensory detail, rewards & risks, and mandatory outbound hooks |
 
+## The Strategic-Narrative Intersection
+
+The three middle layers meet at one concept: the **Strategic-Narrative
+Intersection** (an "Adventure Location") — a single site that is simultaneously
+a military resource on the Diplomacy map, a reusable narrative stage in the
+Campaign Matrix, and a five-room dungeon on the inside. The where, the when,
+and the walk-through.
+
+- The map skill makes it a supply center: strategically valuable, contested.
+- The matrix skill makes it a hub: several cells, each a *reason to be a place
+  and time* — an event at that location, not just the location.
+- The dungeon skill makes it explorable: five rooms with a spent state, because
+  at a hub the party comes back.
+- The nouns skill finds them: any noun serving two or more quest contexts is
+  an intersection of Destiny and matter — prep those hardest.
+
+Aim for on the order of fifteen per campaign. See
+[the guide](docs/strategic-narrative-intersection.md).
+
 ## The pipeline
 
 ```
@@ -46,7 +65,9 @@ Detection proposes; verification decides.
 ```
 campaign-architecture/
   README.md
-  docs/monograph-candyland-framework.md   # the design document
+  docs/
+    monograph-candyland-framework.md       # the design document
+    strategic-narrative-intersection.md    # the unifying concept
   skills/
     schelling-campaign-map/
     campaign-matrix/
