@@ -44,6 +44,26 @@ Write points as structured data: name, kind, `(fx, fy)`, one-line provenance. Na
 - Waypoints are **neutral**: never claimed, never quest hosts. They buffer borders.
 - Render every marker **exactly at its seed**, never at cell centroids.
 
+### 3a. Fractal boundaries (optional mode)
+
+For organic, coastline-like borders instead of straight Voronoi edges, use the
+fractal jittered Voronoi mode (`bin/fractal_voronoi.py`, full pipeline in
+`references/fractal-boundaries.md`), after Boris the Brave's
+["Fractal Jittered Voronoi Partitions"](https://www.boristhebrave.com/2026/08/29/fractal-jittered-voronoi-partitions/).
+Opt-in only — the default stays plain finite Voronoi.
+
+- Seeds stay exactly where the survey put them (layer 0 of the hierarchy is
+  the campaign's seeds, not a jittered grid); markers render at seeds as usual.
+- Rasterize ownership at render resolution, then derive adjacency from **that
+  same raster** (`adjacency_from_grid`) and pass the pairs to
+  `graph_model.derive_layers()` — the graph and the picture must agree.
+- `depth=7` default (5–6: rough coast; 8+: fjords). `rng_seed` re-rolls borders
+  without moving seeds. Fully deterministic for fixed inputs.
+- Verify: `python3 bin/fractal_voronoi.py --selftest` must print `SELFTEST OK`
+  (seed self-ownership, determinism, seed-varying jitter, resolution-stable
+  topology) — then look at `/tmp/fractal_selftest.png` and confirm no seed
+  sits on a border.
+
 ### 3b. Type the graph (multiplex edges)
 
 Emit the point-crawl as **G = (V, E_A, E_F, E_C)** — see `references/typed_graph.md`, `bin/graph_model.py`:
@@ -104,3 +124,4 @@ The map's edge cells are the campaign's horizons. A ring of generic ocean and wi
 - `bin/survey.py` — crop/overlay helpers for the manual measure-and-verify loop.
 - `bin/survey_auto.py` — headless detect + verify. `detect --board <img>` finds candidate squares by HSV color/shape; `verify --board <img>` checks every seed sits on the right color. Exits non-zero on failure. Tune `HSV_RANGES` per board.
 - `bin/graph_model.py` — multiplex graph dataclasses (Node, Edge, E_A/E_F/E_C layers, coast-subnode splitting, JSON round-trip) plus `derive_layers()` / `split_coasts()` to type raw Voronoi adjacency.
+- `bin/fractal_voronoi.py` — optional fractal jittered Voronoi boundary mode (Boris the Brave, 2026): `FractalPartition` rasterizes region ownership with coastline-like borders; `adjacency_from_grid()` derives border pairs from the rendered raster for `derive_layers()`. `--selftest` is the executable gate (self-ownership, determinism, jitter effect, resolution-stable topology).
